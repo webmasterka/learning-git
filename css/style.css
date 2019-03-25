@@ -1,0 +1,14 @@
+body {
+    margin: 0 auto;
+    background-color: darkslategrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    max-width: 200px;
+    margin: 0 auto;
+    color: white;
+}
