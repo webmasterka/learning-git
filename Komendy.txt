@@ -1,0 +1,13 @@
+autoprefixer-cli -o main.prefixed.css main.css
+autoprefixer-cli -h
+
+$ node_modules/.bin/nu-html-checker --help
+Usage: cli [options] <files/urls ...>
+
+Options:
+  -V, --version                output the version number
+  -a, --api <url>              Overrides the default API endpoint (default: "https://validator.nu/")
+  -c, --concurrency <number>   Sets the concurrency of the batch processing (default: 5)
+  -f, --formatter <formatter>  Choose the formatter to use. (stylish, json) (default: "stylish")
+  -h, --help                   output usage information
+
