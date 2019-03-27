@@ -1,6 +1,8 @@
 autoprefixer-cli -o main.prefixed.css main.css
 autoprefixer-cli -h
 
+nu-html-checker 
+
 $ node_modules/.bin/nu-html-checker --help
 Usage: cli [options] <files/urls ...>
 
